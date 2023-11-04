@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Petals</title>
+    <meta name="description" content="Bloom Petals">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="contact.css"/>
+</head>
+<body style="background-color: rgb(240, 208, 219); color: black;">
+    <header>
+        <div class="barre-de-navigation">
+           <nav class="tete">
+              <ol>
+                  <li class="tete"> <a href="index.html"> Home </a></li>
+                  <li class="tete"> <a href="entreprise.html"> Entreprise </a></li>
+                  <li class="tete"> <a href="realisation.html"> Realisation </a></li>
+                  <li class="tete"> <a href="contact.html"> Contact </a></li>
+                  <label for="search">Rechercher :</label>
+                  <input type="text" id="search" name="search" placeholder="Entrez votre recherche ici">
+                  <button type="submit">Rechercher</button>
+                </ol>
+            </nav>
+        </div>             
+    </header>
+
+ 
+
+   <main>
+    <form class="formulaire">
+        <h1>formulaire Clients</h1>
+        <label for="civility">Civilité:</label>
+        <select name="civility" id="civility">
+            <option value="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+        </select>
+        <br>
+        <label for="fullname">Nom et Prénom</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br>
+        <label for="address">Adresse Postale</label>
+        <input type="text" id="address" name="address" required>
+        <br>
+        <label for="pivacyPolicy">Politique de confidentialité:</label>
+        <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+        <br>
+        <input type="submit" class="submit-button" value="valider">
+    </form>
+   </main>
+</body>
+
+</html>
